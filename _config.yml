@@ -1,0 +1,10 @@
+title:            J. Pranay Martin
+description:      Joseph Pranay Martin's personal website. 
+url:              jpranaymartin.com
+twitter_username: pranaymartin
+github_username:  jpranaymartin
+
+# Build settings
+markdown:         kramdown
+timezone:         America/New_York
+
