@@ -1,5 +1,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- if page.title -%}
+    {%- assign title =  page.title | prepend: " - " -%}
+  {%- endif -%}
+  <title>J. Pranay Martin{{ title | default: "" }}</title>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 </head>
